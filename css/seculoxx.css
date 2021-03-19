@@ -1,0 +1,69 @@
+.MenuNav{
+   background-color: white;
+    position: fixed;
+    width: 100%;
+  
+    
+}
+.nav-link:hover{
+    background-color: rgb(150, 150, 150);
+}
+.active{
+    background-color: rgb(150, 150, 150);
+
+}
+.navbar{
+    position: fixed;
+    z-index: 1000;
+}
+section{
+    height: 100vh;
+    padding: 2vw;
+    text-transform: uppercase;
+    
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.secao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+section:nth-of-type(odd){
+    color: white;
+    background-color: rgb(192, 192, 192);
+    
+
+}
+section:nth-child(1){
+    background-image: url(../images/seculoxx/CapaSeculoxx.jpg);
+
+}
+section:nth-child(2){
+    background-color: white;
+  
+}
+section:nth-child(4){
+    
+}
+.imgTarsila{
+    margin-top: 16%;
+    margin-left: 2%;
+    border-radius: 100%;
+    width: 350px;
+    
+    padding: 7px;
+    background: white;
+
+}
+.titulo{
+    border: 2px solid rgb(77, 77, 77); 
+    padding: 2px;
+    background-color: rgba(68, 68, 68, 0.651);
+    margin-top: 4px;
+}
+
