@@ -10,22 +10,25 @@
     <title>Século XX</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg MenuNav " style="position: fixed;">
-        <a class="navbar-brand" href="#"><img src="../images/logo.jpg" style="width: 130px;" alt=""></a>
+    <nav id="navbar1" class="navbar navbar-expand-lg navbar-light bg MenuNav " style="position: fixed;">
+        <a class="navbar-brand" href="../index.html"><img src="../images/logo.jpg" style="width: 130px;" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link" href="#">Tarsila do Amaral <span class="sr-only">(Página atual)</span></a>
+              <a class="nav-link" href="#tarsila">Tarsila do amaral</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#obras">Obras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Destaques</a>
+
+              <a class="nav-link" href="#destaq">Historia</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Preços</a>
-            </li>
+            
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                Artistas
@@ -35,9 +38,9 @@
                 <div class="">
                     <div class="nav flex-column nav" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                         <a  class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Tarcila</a>
-                        <a class="nav-link " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Biografias00000000</a>
-                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Mensagens</a>
-                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Configurações</a>
+                        <a class="nav-link " id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Maria Luiza Pompeu</a>
+                        <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Mônica Nador</a>
+                        <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Eliseu Visconti</a>
                     </div>
                 </div>
               
@@ -46,16 +49,19 @@
           </ul>
         </div>
     </nav>
-    <div class="">
+      <div class="">
+        
         <div class="tab-content" id="v-pills-tabContent">
-          <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" >
+          <div data-target="navbar1" data-offset="0" data-spy="sroll" class="tab-pane fade show active navsrollspy" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" >
             <!--Trasila do amaral ---------------------------------------------------------------------------------->
-            <section class="secao" style="padding: 0px;">
+           
+            <section id="tarsila" class="secao vh100" style="padding: 0px; background-color: white;">
 
+            
                 <div >
                     <div class="perfil">
                       
-                        <img class="imgTarsila" src="../images/seculoxx/tarsiladoamaral1.jpg" alt="">
+                        <img class="imgTarsila" src="../images/seculoxx/tarsiladoamaral1.jpg" alt="A imagem é uma foto de Tarsila do Amaral">
                         
                     </div>
                     <h1 class="titulo">Tarsila do Amaral</h1>
@@ -63,44 +69,169 @@
                 </div>
             
             </section>
-            <section class="secao" style="padding: 0px;">
-                <h1>Obras de Tarsila do Amaral</h1>
+           
+            <section  class="secao" style="padding: 0px;">
+                <h1 >Obras de Tarsila do Amaral</h1>
                 <p>Confira todas das mais famosas obras de uma das mais famosas pintoras do século xx</p>
                 <span style='font-size:50px; border-top: 1px solid black;'>&#8595;</span>
             </section>
-            <section class="vh100">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
-                      </div>
+            
+            <section id="obras"  class="vh100 obraTarsila">
+              <div id="carouselExampleIndicators" class="carousel slide " style="height: 550px; "data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block obrasTarsila"  src="../images/seculoxx/Abaporu.jpg" alt="Abaporu">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Abaporu</h5>
+                      <p>Criada em 1928, o nome traduzido do tupigurani siginifica o "O homem que como gente"
+                        uma das suas principais obras referente ao periodo modernista no Brasil
+                      </p>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Anterior</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Próximo</span>
-                    </a>
                   </div>
+                  <div class="carousel-item">
+                    <img class="d-block obrasTarsila " src="../images/seculoxx/A-Lua.jpg" alt="Obra A lua">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>A lua</h5>
+                      <p>A Lua, quadro de 1928, considerado um marco da pintura antropofágica de Tarsila do 
+                        Amaral, foi comprada pelo Museu de Arte Moderna de Nova York (MoMA), por aproximadamente 
+                        20 milhões de dólares (cerca de 74 milhões de reais na época de sua compra)</p>
+                    </div> 
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block obrasTarsila" style="width: 88%;" src="../images/seculoxx/Operarios.jpg" alt="Obra os operarios">
+                    <div class="carousel-caption d-none d-md-block" >
+                      <h5>Operarios</h5>
+                      <p>
+                        Obra feita em 1933, a artista sensibilizada com a causa operaria em todo mundo 
+                        fez um quadro sobre as diversidades racial que vinha para o Brasil para trabalhar 
+                        nas fábricas em São paulo.
+                      </p>
+                  </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img class="d-block obrasTarsila" src="../images/seculoxx/A-cuca.jpg" alt="Obra a cuca">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>A Cuca</h5>
+                          <p>Com cores fortes, simbolizando o Brasil, a obra foi pintada em 1924 e traz como tema 
+                            um animal inventado, mas popularmente chamado pelos brasileiros de Cuca. 
+                          </p>
+                        </div>
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block obrasTarsila" src="../images/seculoxx/a-caipirinha.png" alt="Obra 'A Caipirinha'">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>A Caipirinha</h5>
+                        <p>"A Caipirinha", de 1923, foi arrematada por R$ 57,5 milhões num leilão na Bolsa de Arte, 
+                          em São Paulo, se tornando assim a obra mais cara de um artista brasileiro em uma venda pública. 
+                          Os lances, que começaram em R$ 47.613.848,66, foram disputados por três colecionadores e duraram 
+                          cerca de 15 minutos.
+
+
+                        </p>
+                      </div>
+                  
+                </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+              </div>
+              
+              
+            </section>
+            <section class="vh100 secao" id="destaq">
+              <h3>Um pouco de Tarsila do Amaral</h3>
+              <p> Conheça um pouco de sua historia e sua cominhada ate os estrelados</p>
+            
+            <div class="accordion" id="accordionExample">
+              <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    História
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Tarsila de Aguiar do Amaral nasceu em 1 de setembro de 1886, em Capivari, interior do Estado 
+                    de São Paulo, filha de José Estanislau do Amaral Filho e de Lídia Dias de Aguiar. Seu 
+                    avô paterno era José Estanislau do Amaral, a quem Silva Leme, na Genealogia Paulistana, 
+                    cognominara “o milionário”, em virtude da imensa fortuna que acumulara em fazendas do interior 
+                    paulista. Além de fazendeiro, seu avô fora empresário e construíra edifícios importantes em 
+                    São Paulo e Santos, e a sede de seus negócios fora a Fazenda Sertão, na qual, em seu auge, 
+                    tivera quatrocentos escravos. Tarsila era a primeira filha do casal, e a segunda criança, 
+                    depois de Oswaldo. Ela teria ainda outros cinco irmãos, incluindo Milton, pai do geólogo Sérgio 
+                    Estanislau do Amaral.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Carrera
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Começou a aprender pintura em 1917, com Pedro Alexandrino Borges Mais tarde, estudou com o alemão 
+                    George Fischer Elpons. Em 1920, viaja a Paris e frequenta a Academia Julian, onde desenhava nus e 
+                    modelos vivos intensamente. Também estudou na academia de Émile Renard.
+
+                    Apesar de ter tido contato com as novas tendências e vanguardas, Tarsila somente aderiu às 
+                    ideias modernistas ao voltar ao Brasil, em 1922. Numa confeitaria paulistana, foi apresentada por A
+                    nita Malfatti aos modernistas Oswald de Andrade, Mário de Andrade e Menotti Del Picchia. Esses novos 
+                    amigos passaram a frequentar seu atelier, formando o Grupo dos Cinco.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Representações na cultura
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                  <div class="card-body">
+                    Tarsila do Amaral já foi retratada como personagem no cinema e na televisão, interpretada por Esther Góes 
+                    no filme "Eternamente Pagu" (1987), Eliane Giardini nas minisséries "Um Só Coração" (2004) e "JK" (2006).
+
+                    A artista também foi tema da peça teatral Tarsila, escrita entre novembro de 2001 e maio de 2002 por 
+                    Maria Adelaide Amaral. A peça foi encenada em 2003 e publicada em forma de livro em 2004. A personagem-título 
+                    foi interpretada pela atriz Esther Góes e a peça também tinha Oswald de Andrade, Mário de Andrade e Anita Malfatti
+                     como personagens.
+                    
+                    Tarsila do Amaral foi homenageada pela União Astronômica Internacional, que em 20 de novembro de 2008 atribuiu o 
+                    nome "Amaral" a uma cratera do planeta Mercúrio.
+                  </div>
+                </div>
+              </div>
+            </div>
+
             </section>
             <!----------------------------------------------------------------------------------------------------------->
           </div>
           <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-            <section class="vh100">
-                
+            <section class="vh100 secao" id="destaq">
+                <h3>kljhdkahfkahfk</h3>
             </section>
           </div>
           <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
@@ -111,9 +242,33 @@
 
           </div>
         </div>
-    </div>
+      </div>
+      <section class="vh100 secao" style="text-align: justify;" >
+        <h2>Um pouco da histótia da arte no Brasil</h2>
+        <p >
+          <h3>Expressionismo</h3>
 
-   
+          Movimento que deu inicio as obras do século xx, nesse período, dois artistas expressionistas se destacaram: Lasar Segall e 
+          Anita Malfatti. Lasar Segall realizou sua primeira exposição em São Paulo, 
+          em 1913: sua pintura era cheia de cores tropicais e repleta de cenas da 
+          realidade do Brasil. Anita Malfatti chocou a sociedade tradicional com suas obras 
+          expressionistas, como O Homem Amarelo e O Japonês. Sua exposição polêmica, em 1917, 
+          foi um marco para a renovação das artes plásticas no Brasil.
+
+          Lasar Segall e Anita Malfatti introduziram a arte moderna para os brasileiros.
+
+          <h3>Modernismo</h3>
+
+          O termo Modernismo é empregado para designar as manifestações artísticas que, 
+          acompanhando as rápidas mudanças no final do século XIX e início do XX, tentaram 
+          traduzir a nova realidade e os novos anseios que se impunham ao “homem moderno” e 
+          à sociedade.
+
+          A Semana de Arte Moderna, ocorrida em 1922, foi o marco inicial do Modernismo no 
+          Brasil: influenciou principalmente a Literatura e as Artes Plásticas.
+        </p>
+      </section>
+      
     </div>
 
     <script type="text/javascript" src="js/vunit.js">

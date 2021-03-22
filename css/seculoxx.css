@@ -1,30 +1,74 @@
+
+@media (max-width: 575.98px) { 
+    html body div section.secao:nth-child(1){
+        background-image: url(../images/seculoxx/Abaporu.jpg);
+    }
+
+}
+
+/*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/ 
+@media (max-width: 767.98px) { 
+    html section.secao:nth-child(1){
+        background-image: url(../images/seculoxx/tarsilaAmaral.jpg);
+    }
+
+ }
+
+/* Dispositivos médios (tablets com menos de 992px)*/
+@media (max-width: 991.98px) { 
+    section.secao:nth-child(1){
+        background-image: url(../images/doug.jpg);
+    }
+
+}
+
+/* Dispositivos large (desktops com menos de 1200px)*/
+@media (max-width: 1199.98px) { 
+    section.secao:nth-child(1){
+        background-image: url(../images/seculoxx/CapaSeculoxx.jpg);
+    }
+
+}
+
+
 .MenuNav{
    background-color: white;
     position: fixed;
     width: 100%;
-  
+    
     
 }
-.nav-link:hover{
-    background-color: rgb(150, 150, 150);
-}
-.active{
-    background-color: rgb(150, 150, 150);
 
+.nav-link:hover{
+    border-top: 1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+    background-color: rgb(245, 245, 245);
+    border-radius: 0px 15px 0px 15px;
 }
+
 .navbar{
     position: fixed;
     z-index: 1000;
 }
+.nav-link.active:focus{
+    border-top: 1px solid rgb(150, 150, 150);
+    border-bottom: 1px solid rgb(150, 150, 150);
+}
+.navsrollspy{
+    position: relative;
+    overflow-y: auto;
+    height: auto;
+}
 section{
     height: 100vh;
     padding: 2vw;
-    text-transform: uppercase;
     
-
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+body{
+    position: relative;
 }
 .secao{
     display: flex;
@@ -32,38 +76,86 @@ section{
     align-items: center;
     justify-content: center;
     text-align: center;
+   
 }
 section:nth-of-type(odd){
     color: white;
-    background-color: rgb(192, 192, 192);
+    background-color: #1a1a1a;
     
 
 }
 section:nth-child(1){
-    background-image: url(../images/seculoxx/CapaSeculoxx.jpg);
-
-}
-section:nth-child(2){
-    background-color: white;
-  
-}
-section:nth-child(4){
+    background-image: url(../images/seculoxx/CapaSeculoxx.jpg);      
     
 }
+section:nth-child(2){
+    
+}
+section:nth-child(3){
+    background-color: #1a1a1a;
+  
+}
+
+section:nth-child(5){
+   
+}
+
+.card-body{
+   background-color: #dadada;
+   color: rgb(0, 0, 0);
+}
+.card-header h5{
+    width: 100%;
+    
+
+}
 .imgTarsila{
-    margin-top: 16%;
+    margin-top: 22%;
     margin-left: 2%;
     border-radius: 100%;
-    width: 350px;
+    width: 300px;
     
     padding: 7px;
     background: white;
 
 }
 .titulo{
-    border: 2px solid rgb(77, 77, 77); 
+    border: 1px solid rgb(255, 255, 255); 
     padding: 2px;
-    background-color: rgba(68, 68, 68, 0.651);
+    background-color: rgba(0, 0, 0, 0.651);
     margin-top: 4px;
 }
-
+section img{
+    width: 400px;
+    margin: auto;
+    position: relative;
+}
+.carousel-item{
+    background-color: rgb(51, 41, 41);
+}
+.slide{
+    margin-top: 2%;
+    background-color: rgb(51, 41, 41);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.carousel-control-next:hover{
+    background-color: rgba(0, 0, 0, 0.336);
+}
+.carousel-control-prev:hover{
+    background-color: rgba(0, 0, 0, 0.336);
+}
+.carousel-item p{
+    background-color: rgba(0, 0, 0, 0.418);
+}
+.obrasTarsila{
+    max-width: 92%;
+    
+    width: auto;
+    height: auto;
+ 
+}
