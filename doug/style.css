@@ -1,0 +1,228 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: none;
+	text-decoration: none;
+	list-style: none;
+
+
+}
+
+body{
+	font-family: Roboto, sans-serif;
+	display: block;
+	
+	
+}
+
+header{
+	background-color: #fff;
+	height: 4em;
+	padding: 5% 3% 0 3%;
+	height: 70px;
+	margin: 0; 
+}
+#logo{
+	float: left;
+	height: 50px; 
+}
+header a{
+	padding-top: 4%;
+	float: right;
+	color: #506AD4;
+}
+
+
+#front{
+	font-family: Verdana, sans-serif;
+	height: 80vh;
+	background-color: #2c2c2c;
+	color: #fff;
+	padding: 20vh 5vh 0 5vh;
+}
+#front p{
+	font-size: 1.3em;
+}
+#front h3{
+	text-align: right;
+}
+
+
+#desc{
+	border-bottom: solid 10px #ccc;
+	background-color: #fff;
+
+}
+#desc img{
+	width: 10%;
+	padding: 5% 45% 5% 45%;
+}
+#desc p{
+	font-family: Verdana, sans-serif;
+	padding: 30% 15% 30% 15%;
+	font-size: 12px;
+	text-align: justify;
+
+	
+}
+
+
+
+
+.bio{
+	border-top: solid 6px #3EB595;
+	display: flex;
+	padding: 15% 10% 15% 10%;
+	background-color: #000;
+	color: #fff;
+}
+.bio img{
+	height: 100px;
+	float: left;
+}
+.bio p{
+	font-size: 0.8em;
+	padding-left: 5%;
+}
+
+
+.art{
+	padding: 10% 5% 10% 5%;	
+	border-bottom: solid 6px #FFF447;
+	
+}
+
+.art img{
+	width: 80%;
+	padding-bottom: 5%;
+	margin-left: 10%;
+}
+
+
+footer{
+	background-color: #2c2c2c;
+	text-align: center;
+	padding: 10% 10% 10% 10%;
+	color: #fff;
+	font-size: 0.7em;
+}
+
+.container{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+
+
+/* Media Screen's*/
+
+@media screen and (min-width: 1000px){
+	header{
+	background-color: #fff;
+	height: 4em;
+	padding: 5% 3% 2% 3%;
+	height: 70px;
+	margin: 0; 
+	}
+	#logo{
+		float: left;
+		height: 60px; 
+	}
+	header a{
+		padding-top: 2%;
+		float: right;
+		color: #506AD4;
+		font-size: 1.2em;
+	}
+
+
+	#front{
+		font-family: Verdana, sans-serif;
+		height: 100vh;
+		background-color: #2c2c2c;
+		color: #fff;
+		padding: 20vh 5vh 0 5vh;
+	}
+	#front p{
+		font-size: 2em;
+	}
+	#front h3{
+		text-align: right;
+		font-size: 1.5em;
+	}
+
+
+	#desc{
+		border-bottom: solid 10px #ccc;
+		background-color: #fff;
+
+	}
+	#desc img{
+		width: 15%;
+		padding: 5% 45% 5% 45%;
+	}
+	#desc p{
+		font-family: Verdana, sans-serif;
+		padding: 15% 15% 15% 15%;
+		font-size: 1.3em;
+
+		
+	}
+
+
+
+
+	.bio{
+		border-top: solid 6px #3EB595;
+		display: flex;
+		padding: 15% 10% 15% 10%;
+		background-color: #000;
+		color: #fff;
+	}
+	.bio img{
+		height: 160px;
+		float: left;
+	}
+	.bio p{
+		font-size: 1.3em;
+		padding-left: 5%;
+	}
+
+
+	.art{
+		padding: 10% 5% 10% 5%;	
+		border-bottom: solid 6px #FFF447;
+		
+	}
+
+	.art img{
+	width: 45%;
+	margin: 1%;
+	max-height: 400px;
+	}
+
+	footer{
+		background-color: #2c2c2c;
+		text-align: center;
+		padding: 10% 10% 10% 10%;
+		color: #fff;
+		font-size: 1.1em;
+	}
+}
+
+
+
+
+@media screen and (min-width: 1200px){
+	.bio p{
+	font-size: 1.7em;
+	padding-left: 5%;
+	}
+}
+@media screen and (min-width: 1500px){
+	.bio p{
+	font-size: 2.3em;
+	padding-left: 5%;
+	}
+}
