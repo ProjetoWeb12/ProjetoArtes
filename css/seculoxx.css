@@ -1,7 +1,7 @@
 
 @media (max-width: 575.98px) { 
     html body div section.secao:nth-child(1){
-        background-image: url(../images/seculoxx/Abaporu.jpg);
+        background-image: url(../images/seculoxx/responciveCelular.jpg);
     }
 
 }
@@ -9,7 +9,7 @@
 /*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/ 
 @media (max-width: 767.98px) { 
     html section.secao:nth-child(1){
-        background-image: url(../images/seculoxx/tarsilaAmaral.jpg);
+        background-image: url(../images/seculoxx/responciveCelularMaior.jpg);
     }
 
  }
@@ -17,7 +17,7 @@
 /* Dispositivos médios (tablets com menos de 992px)*/
 @media (max-width: 991.98px) { 
     section.secao:nth-child(1){
-        background-image: url(../images/doug.jpg);
+        background-image: url(../images/seculoxx/capaResponsiveTablet.jpg);
     }
 
 }
@@ -25,7 +25,7 @@
 /* Dispositivos large (desktops com menos de 1200px)*/
 @media (max-width: 1199.98px) { 
     section.secao:nth-child(1){
-        background-image: url(../images/seculoxx/CapaSeculoxx.jpg);
+        background-image: url(../images/seculoxx/responsivePc.jpg);
     }
 
 }
@@ -46,6 +46,9 @@
     color: rgb(59, 59, 59); 
    
     border-radius: 0px 10px 0px 10px;
+
+    
+   box-shadow: 0px 0px 13px rgb(58, 58, 58);
 }
 
 .nav-link:hover{
@@ -112,7 +115,7 @@ section:nth-of-type(odd){
 
 }
 section:nth-child(1){
-    background-image: url(../images/seculoxx/CapaSeculoxx.jpg);      
+    background-image: url(../images/seculoxx/responcivePcMaior.jpg);      
     
 }
 section:nth-child(2){
