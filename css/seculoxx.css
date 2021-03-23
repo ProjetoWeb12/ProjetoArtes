@@ -38,21 +38,35 @@
     
     
 }
+.navSecuXX{
+    font-size: 23px;
+    margin: 10px; 
+    border: 2px outset green;
+    padding: 4px;
+    color: rgb(59, 59, 59); 
+   
+    border-radius: 0px 10px 0px 10px;
+}
 
 .nav-link:hover{
-    border-top: 1px solid rgb(150, 150, 150);
-    border-bottom: 1px solid rgb(150, 150, 150);
-    background-color: rgb(245, 245, 245);
-    border-radius: 0px 15px 0px 15px;
+    border:1px solid green;
+    color: green;
+
+}
+.nav-link{
+    background-color: white;
+  
+    margin-left: 10px;
 }
 
 .navbar{
     position: fixed;
     z-index: 1000;
 }
-.nav-link.active:focus{
-    border-top: 1px solid rgb(150, 150, 150);
-    border-bottom: 1px solid rgb(150, 150, 150);
+.nav-link.active{
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+    color: green;
 }
 .navsrollspy{
     position: relative;
@@ -143,6 +157,12 @@ section img{
     margin: auto;
     position: relative;
 }
+section h1{
+    border-bottom: 1px solid rgb(12, 12, 12);
+    border-top: 1px solid rgb(12, 12, 12);
+    padding: 5px;
+    
+}
 .carousel-item{
     background-color: rgb(51, 41, 41);
 }
@@ -168,6 +188,7 @@ section img{
 .carousel-item h5{
     background-color: rgba(0, 0, 0, 0.418);
 }
+
 .obrasTarsila{
     max-width: 92%;
     
@@ -181,4 +202,16 @@ footer{
 	padding: 10% 10% 10% 10%;
 	color: #fff;
 	font-size: 1.3em;
+}
+::-webkit-scrollbar-track {
+    background-color: #167a12;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    color: blue;
+    
+}
+::-webkit-scrollbar-thumb {
+    background: #f1ee1b;
+    width: 5px;
 }
