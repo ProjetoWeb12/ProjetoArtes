@@ -3,7 +3,21 @@
     html body div section.secao:nth-child(1){
         background-image: url(../images/seculoxx/responciveCelular.jpg);
     }
+    body .slide{
+        height: 350px;
+    }
+    
+    body section .card-body{
+        font-size: 13px;
+    }
+    body section .collapse{
+        height: 150px;
+    }
+    body section .secaalb{
+        height: 300px;
+        overflow-y: auto;
 
+    }
 }
 
 /*Dispositivos small (telefones em modo paisagem, com menos de 768px)*/ 
@@ -178,6 +192,8 @@ section h1{
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    height: 550px;
 }
 .carousel-control-next:hover{
     background-color: rgba(0, 0, 0, 0.336);
@@ -191,6 +207,13 @@ section h1{
 .carousel-item h5{
     background-color: rgba(0, 0, 0, 0.418);
 }
+.cpzALb{
+    max-width: 400px;
+    width: auto;
+    height: auto;
+
+}
+
 
 .obrasTarsila{
     max-width: 92%;
