@@ -1,3 +1,5 @@
+
+
 .u-nav-link:hover{
   border: 1px solid black;
   color: black;
@@ -185,6 +187,10 @@
 }
 
 @media (max-width: 575px) {
+  body h1{
+    font-size: 20px;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 919px;
   }
